@@ -25,7 +25,43 @@
         },
         {
             "before": [
-                "<C-n>"
+                ";",
+                ";",
+            ],
+            "after": [
+                "A",
+                ";",
+                "<Esc>"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "w",
+                "v",
+            ],
+            "after": [
+                "<C-W>",
+                "v",
+                "<C-w>",
+                "l"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "w",
+                "c",
+            ],
+            "commands": [
+                ":q",
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "c",
+                "s"
             ],
             "commands": [
                 ":nohl"
